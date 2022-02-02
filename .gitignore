@@ -1,114 +1,103 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-# C extensions
-*.so
+# AWS User-specific
+.idea/**/aws.xml
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# Generated files
+.idea/**/contentModel.xml
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
 
-# Translations
-*.mo
-*.pot
+# CMake
+cmake-build-*/
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
 
-# Flask stuff:
-instance/
-.webassets-cache
+# File-based project format
+*.iws
 
-# Scrapy stuff:
-.scrapy
+# IntelliJ
+out/
 
-# Sphinx documentation
-docs/_build/
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-# PyBuilder
-target/
+# JIRA plugin
+atlassian-ide-plugin.xml
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Cursive Clojure plugin
+.idea/replstate.xml
 
-# IPython
-profile_default/
-ipython_config.py
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
 
-# pyenv
-.python-version
+# Editor-based Rest Client
+.idea/httpRequests
 
-# celery beat schedule file
-celerybeat-schedule
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
 
-# SageMath parsed files
-*.sage.py
+### PyCharm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Sonarlint plugin
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea/**/sonarlint/
 
-# Rope project settings
-.ropeproject
+# SonarQube Plugin
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea/**/sonarIssues.xml
 
-# mkdocs documentation
-/site
+# Markdown Navigator plugin
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
 
-# Pyre type checker
-.pyre/
+# CodeStream plugin
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
+
+# End of https://www.toptal.com/developers/gitignore/api/pycharm
